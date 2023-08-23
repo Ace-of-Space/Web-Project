@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #000;
   color: white;
   padding: 10px 0;
   display: flex;
@@ -30,7 +30,7 @@ nav a {
 
 
 footer {
-  background-color: #333;
+  background-color: #000;
   color: white;
   margin-top: 12px;
   margin-bottom: 12px;
