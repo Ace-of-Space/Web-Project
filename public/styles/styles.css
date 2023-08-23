@@ -1,1 +1,39 @@
-/* needs triage */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #000;
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+
+footer {
+  background-color: #000;
+  color: white;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  text-align: center;
+  padding: 20px 0;
+}
