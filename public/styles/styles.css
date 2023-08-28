@@ -34,7 +34,7 @@ header nav ul li a {
 
 
 #hero {
-  background: url("images/banner.jpeg") no-repeat center;
+  background: url("banner.jpeg") no-repeat center;
   /* background-color: #f9f5f2; */
   display: flex;
   width: 100%;
@@ -131,7 +131,7 @@ header nav ul li a {
   margin-top: 20px;
 }
 
-
+/* Team Section styles */
 #team {
   background-color: #f9f5f2;
   padding: 80px 20px;
@@ -214,6 +214,7 @@ header nav ul li a {
 
  
 
+/* Contact Section styles */
 #contact {
   background-color: #f9f5f2;
   padding: 80px 20px;
@@ -242,8 +243,11 @@ header nav ul li a {
 
 
 footer {
+  padding-top: 85px;
+//  padding-bottom: 35px;
+  height: 160px;
   background-color: #152238;
-  padding: 20px;
+//  padding: 20px;
   color: #fff;
   text-align: center;
 }
@@ -267,3 +271,4 @@ footer nav ul li a {
 footer p {
   margin: 0;
 }
+
