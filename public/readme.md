@@ -15,7 +15,7 @@ This is a website project created for our team to centralize information and to 
 - [Authors](#authors)
 - [Contact](#contact)
 - [Getting Help](#getting-help)
-- 
+
 
 ## Usage
 
