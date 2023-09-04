@@ -11,7 +11,6 @@ This is a website project created for our team to centralize information and to 
 - [Usage](#usage)
 - [Features](#features)
 - [Screenshots](#screenshots)
-- [License](#license)
 - [Authors](#authors)
 - [Contact](#contact)
 - [Getting Help](#getting-help)
@@ -38,9 +37,6 @@ To run this website locally, follow these steps:
 
 
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 ## Authors
