@@ -5,7 +5,7 @@
   box-sizing: border-box;
   outline: none; border:none;
   text-decoration: none;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 html {
@@ -67,6 +67,7 @@ section {
 }
 
 .header .logo {
+  text-transform: capitalize;
   font-size: 1.9rem;
   color: #fff;
 }
@@ -103,6 +104,10 @@ section {
 
 .aos {
   display: block;
+  padding-top: 10rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 0;
 }
 
 .aos h2 {
@@ -122,13 +127,15 @@ section {
 
 .aos-body {
   display: block;
+  padding-left: 10rem;
 }
 
 .aos-body p {
   color: #fff;
   font-size: 2rem;
   font-weight: 20px;
-  margin: 25px;
+  /* margin: 25px; */
+  margin-bottom: 35px;
 }
 
 
@@ -138,7 +145,8 @@ section {
 
 #about {
   background-color: #fff;
-  padding: 80px 20px;
+  padding: 8rem;
+  border-radius: 9px;
   text-align: center;
   color: #152238;
 }
@@ -154,7 +162,12 @@ section {
 }
 
 
+
+/* services */
+
 #services {
+  display: block;
+
   background-color: #152238;
   padding: 80px 20px;
   text-align: center;
@@ -167,6 +180,10 @@ section {
 }
 
 #services ul {
+  display: grid;
+  /* grid-template-columns: 100px 250px 100px 100px; */
+  grid-template-columns: ;
+  column-gap: 30px;
   list-style: none;
   padding: 0;
   margin-top: 40px;
@@ -185,15 +202,16 @@ section {
   margin-top: 10px;
 }
 
-#services .cta-button {
+/* #services .cta-button {
+  font-size: .5rem;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 7px 15px;
   background-color: #f9f5f2;
   color: #152238;
   text-decoration: none;
   border-radius: 5px;
   margin-top: 20px;
-}
+} */
 
 
 
@@ -256,7 +274,8 @@ section {
 
 #contact p {
   font-size: 18px;
-  margin-top: 20px;
+  margin: 20px;
+  text-transform: none;
 }
 
 #contact a {
@@ -265,19 +284,32 @@ section {
 }
 
 
+#contact input {
+  padding: 0.7rem;
+  border-radius: 7px;
+  background-color: rgb(238, 210, 150);
+  margin: 10px;
+}
+
+#contact button {
+  margin: 15px;
+  background-color: #152238;
+}
+
 footer {
-  padding-top: 85px;
-//  padding-bottom: 35px;
+  font-size: 1.1rem;
+  padding: 3rem;
+  /* padding-top: 85px;
+  padding-bottom: 35px; */
   height: 160px;
   background-color: #152238;
-//  padding: 20px;
   color: #fff;
   text-align: center;
 }
 
 footer nav ul {
   list-style: none;
-  margin: 0;
+  /* margin: 0; */
   padding: 0;
 }
 
@@ -292,6 +324,6 @@ footer nav ul li a {
 }
 
 footer p {
-  margin: 0;
+  margin: 15px;
 }
 
