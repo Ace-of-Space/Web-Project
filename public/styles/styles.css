@@ -37,14 +37,17 @@ body {
   padding-right: 1.2rem;
   padding-top: .6rem;
   padding-bottom: .6rem;
-  border-radius: 7px;
+    border-radius: 7px;
   text-decoration: none;
   font-size: 1.5rem;
+  cursor: pointer; 
+  transition: background-color .3s ease-in-out;
 } 
 
 .btn:hover {
   background-color: transparent;
-  border-color: rgb(247, 168, 0);
+  color: rgb(247, 168, 0);
+  background-color: #fff;
 }
 
 section {
@@ -64,6 +67,12 @@ section {
   box-shadow: var(--box-shadow);
   align-items: center;
   justify-content: space-between;
+}
+
+.header .logo:hover {
+  letter-spacing: 15px;
+  transition: .3s ease-in-out;
+  margin-left: 3px;
 }
 
 .header .logo {
@@ -122,7 +131,6 @@ section {
   font-size: 2rem;
   color: #fff;
   text-shadow: 0 1.5rem 3rem rgba(0,0,0,.3);
-  text-transform: none;
 }
 
 .aos-body {
@@ -243,6 +251,13 @@ section {
   width: 250px;
   height: 250px;
   border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+#team img:hover {
+  transition: .2s linear;
+  transform: scale(1.1);
 }
 
 #team h3 {
@@ -251,6 +266,7 @@ section {
 }
 
 #team p {
+  font-size: 18px;
   margin: 0;
 }
 
@@ -291,39 +307,80 @@ section {
   margin: 10px;
 }
 
+
+
+
+
+
+
 #contact button {
   margin: 15px;
   background-color: #152238;
+  transition: background-color .3s ease-in-out;
 }
 
-footer {
-  font-size: 1.1rem;
-  padding: 3rem;
-  /* padding-top: 85px;
-  padding-bottom: 35px; */
-  height: 160px;
-  background-color: #152238;
+#contact button:hover {
+  background-color: rgb(247, 168, 0);
   color: #fff;
+}
+
+
+
+.footer {
+  color: #fff;
+}
+
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 3rem;
+}
+
+.footer .box-container .box h3 {
+  color: var(--white);
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer .box-container .box a {
+  color: var(--light-white);
+  font-size: 1rem;
+  padding-bottom: 1.5rem;
+  display: block;
+  text-transform: lowercase;
+}
+
+.footer .box-container .box a i {
+  color: var(--main-color);
+  padding-right: .5rem;
+  transition: .2s linear;
+}
+
+.footer .box-container .box a:hover i {
+  padding-right: 2rem;
+}
+
+.footer .box-container .box a:hover {
+  color: rgb(247, 168, 0);
+}
+
+.footer .credit {
   text-align: center;
+  padding-top: 3rem;
+  margin-top: 3rem;
+  border-top: .1rem solid #fff9;
+  font-size: 2rem;
 }
 
-footer nav ul {
-  list-style: none;
-  /* margin: 0; */
-  padding: 0;
+.footer .credit span {
+  color: rgb(247, 168, 0);
 }
 
-footer nav ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-footer nav ul li a {
+.footer .credit span:hover {
   color: #fff;
-  text-decoration: none;
+  letter-spacing: 15px;
+  transition: .3s ease-in-out;
+  margin-left: 3px;
 }
 
-footer p {
-  margin: 15px;
-}
 
