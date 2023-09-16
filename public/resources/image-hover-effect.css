@@ -1,0 +1,12 @@
+#team img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+#team img:hover {
+  transition: .2s linear;
+  transform: scale(1.1);
+}

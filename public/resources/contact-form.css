@@ -1,0 +1,47 @@
+
+#contact {
+  background-color: #f9f5f2;
+  padding: 80px 20px;
+  text-align: center;
+  color: #152238;
+}
+
+#contact h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+#contact form {
+  margin-top: 40px;
+}
+
+#contact p {
+  font-size: 18px;
+  margin: 20px;
+  text-transform: none;
+}
+
+#contact a {
+  color: #152238;
+  text-decoration: none;
+}
+
+
+#contact input {
+  padding: 0.7rem;
+  border-radius: 7px;
+  background-color: rgb(238, 210, 150);
+  margin: 10px;
+}
+
+
+#contact button {
+  margin: 15px;
+  background-color: #152238;
+  transition: background-color .3s ease-in-out;
+}
+
+#contact button:hover {
+  background-color: rgb(247, 168, 0);
+  color: #fff;
+}
