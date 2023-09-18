@@ -1,0 +1,32 @@
+
+
+<!--   ---------------------------------------------------------------------------------------- -->
+  
+
+  <section id="services">
+    <h2>Services</h2>
+    <ul class="rows">
+      <li>
+        <h3>Web Development</h3>
+        <p>We offer professional web development services tailored to your specific needs.</p>
+      </li>
+      
+      <li>
+        <h3>Search Engine Optimization</h3>
+        <p>Place your web app at the peak of performance and patronization.</p>
+      </li>
+      
+      <li>
+        <h3>Mobile App Development</h3>
+        <p>Get cutting-edge mobile apps for iOS and Android platforms.</p>
+      </li>
+
+      <li>
+        <h3>IoT Services</h3>
+        <p>lorem ipsum dolor sit amet</p>
+      </li>
+
+    </ul>
+    
+    <button href="#contact" class="btn"> Contact Us </button>
+  </section>
