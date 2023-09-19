@@ -18,7 +18,7 @@ This is a website project created for our team to centralize information and to 
 
 ## Usage
 
-To run this website locally, follow these steps:
+To run this website locally, follow these steps :
 
 1. Clone this repository to your local machine.
 2. Navigate to the project directory.
