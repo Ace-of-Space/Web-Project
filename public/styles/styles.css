@@ -1,3 +1,4 @@
+
 * {
   font-family: 'Poppins', sans-serif;
   margin:0; padding:0;
@@ -40,7 +41,7 @@ body {
   text-decoration: none;
   font-size: 1.5rem;
   cursor: pointer; 
-  transition: all .5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
 } 
 
 .btn:hover {
@@ -267,7 +268,7 @@ section {
 #contact button {
   margin: 15px;
   background-color: #152238;
-  transition: all .5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
 }
 
 #contact button:hover {
