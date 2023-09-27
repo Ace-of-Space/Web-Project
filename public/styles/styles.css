@@ -41,13 +41,14 @@ body {
   text-decoration: none;
   font-size: 1.5rem;
   cursor: pointer; 
-  transition: background-color .3s ease-in-out;
+  transition: all 0.5s ease-out 0s;
 } 
 
 .btn:hover {
-  background-color: transparent;
   color: rgb(247, 168, 0);
   background-color: #fff;
+  border-radius: 40%;
+  transform: scale(1.1);
 }
 
 section {
@@ -267,12 +268,14 @@ section {
 #contact button {
   margin: 15px;
   background-color: #152238;
-  transition: background-color .3s ease-in-out;
+  transition: all 0.5s ease-out 0s;
 }
 
 #contact button:hover {
   background-color: rgb(247, 168, 0);
   color: #fff;
+  border-radius: 40%;
+  transform: scale(1.1);
 }
 
 
