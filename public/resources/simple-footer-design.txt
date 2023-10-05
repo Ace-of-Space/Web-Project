@@ -1,0 +1,62 @@
+  <!-- Footer -->
+  <!-- <footer>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+        <ul>
+        <li><a href="mailto:aceofspace.dev@gmail.com">Mail</a></li>
+        <li><a href="https://facebook.com/ace.ofSpace">Facebook</a></li>
+        <li><a href="https://linked">LinkedIn</a></li>
+        <li><a href="https://github.com/ace-of-space">GitHub</a></li>
+      </ul>
+
+    <p>&copy; 2023 <a href="https://github.com/ace-of-space">Ace of Space.</a> All rights reserved.</p>
+
+  </footer> -->
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+footer {
+  font-size: 1.1rem;
+  padding: 3rem;
+  height: 160px;
+  background-color: #152238;
+  color: #fff;
+  text-align: center;
+}
+
+footer nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer p {
+  margin: 15px;
+}
+ */

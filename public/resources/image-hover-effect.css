@@ -1,0 +1,12 @@
+image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  transition: .2s linear;
+}
+
+image:hover {
+  transform: scale(1.1);
+}

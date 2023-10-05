@@ -1,113 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
   <title> Ace of Space </title>
-  <link rel="stylesheet" href="styles.css" >
+  <link rel="stylesheet" href="styles/styles.css" >
 </head>
   
 <body>
-  <header>
-    <h1>Ace of Space</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
+
+  <section class="header">
+  
+    <a href="index.html" class="logo">AOS</a>
+  
+    <nav class="navbar">
+      <a href="#about"> About </a>
+      <!-- <a href="#services"> Services </a> -->
+      <a href="#team"> Team </a>
+      <a href="#contact"> Contact </a>
+    </nav>
+  
+    <div id="menu-btn" class="fas fa-bars"></div>
+  
+  </section>
   
 
 <!--   ---------------------------------------------------------------------------------------- -->
 
   
 <!-- intro -->
-  <section id="intro">
-    <h2>Welcome to Ace of Space</h2>
-    <p>Transforming innovative ideas into reality</p>
-    <a href="#contact" class="btn">More</a>
+  <section id="intro" style="background:url(images/team.jpeg) no-repeat">
+    
+    <div class="aos">
+      <p> Welcome to</p>
+      <h2>Ace of Space</h2>
+    </div>
+
+    <div class="aos-body">
+      <p> Transforming Innovative Ideas Into Reality </p>
+      <button href="#contact" class="btn"> More </button>
+    </div>
+
   </section>
 
 
 
 <!--   ---------------------------------------------------------------------------------------- -->
   
-  <!-- About Us -->
+  About Us
   <section id="about">
     <h2>About Us</h2>
-    <p> We are a team of skilled developers bla bla bla </p>
+    <p> We are a team of skilled developers who are passionate about Software Developer </p>
+
+                              <!-- DAUDA'S CODE-->
+    <h2>Our Story</h2>
+            <p>At Ace of Space, we are work towards becoming professionals...</p>
+            
+            <h2>Our Mission</h2>
+            <p>Our mission is simple yet profound: to inspire, educate, each and every one of you...</p>
+            
+            <h2>What We Offer</h2>
+                we offer a the following
+                <ul>
+                    <li>Programming</li>
+                    <li>Web Develop</li>
+                    <li>and More...</li>
+                </ul>
   </section>
 
-
-
-<!--   ---------------------------------------------------------------------------------------- -->
-  
-
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>
-        <h3>Web Development</h3>
-        <p>We offer professional web development services tailored to your specific needs.</p>
-      </li>
-      
-      <li>
-        <h3>Search Engine Optimization</h3>
-        <p>Place your web app at the peak of performance and patronization.</p>
-      </li>
-      
-      <li>
-        <h3>Mobile App Development</h3>
-        <p>Get cutting-edge mobile apps for iOS and Android platforms.</p>
-      </li>
-
-      <li>
-        <h3>IoT Services</h3>
-        <p>lorem ipsum dolor sit amet</p>
-      </li>
-
-    </ul>
-    
-    <a href="#contact" class="btn">Contact Us</a>
-  </section>
 
 
 <!--   ---------------------------------------------------------------------------------------- -->
   
   <!-- Team -->
   <section id="team">
-    <h2>Core Team</h2>
+    <h2>Team</h2>
     <ul>
       <li>
-        <img src="dominic.png" alt="">
-        <h3>Dominic OT</h3>
-        <p>Lead Programmer</p>
+        <a href="https://github.com/dominicOT"><img src="images/dominic.png" alt=""></a>
+        <h3> Dominic OT </h3>
+        <p> Lead Programmer </p>
       </li>
       
       <li>
-        <img src="images/me.jpg" alt="">
-        <h3>Dauda Kanu</h3>
-        <p>UI / Frontend Developer</p>
+        <img src="images/dauda.png" alt="">
+        <h3> Dauda Kanu </h3>
+        <p> UX / Frontend Developer </p>
       </li>
       
       <li>
-        <img src="" alt="">
-        <h3>Aminata Fofanah</h3>
-        <p>Frontend Developer</p>
+        <img src="images/IMG_5495.jpg" alt="">
+        <h3> Aminata Fofanah </h3>
+        <p> Frontend Developer </p>
       </li>
       
       <li>
-        <img src="" alt="">
-        <h3>Solomon Kanu</h3>
-        <p>Backend Engineer</p>
+        <img src="images/solomon.png" alt="">
+        <h3> Solomon Kanu </h3>
+        <p> Backend Engineer </p>
       </li>
       
       <li>
-        <img src="" alt="">
-        <h3>Solomon Kanu</h3>
-        <p>Backend Engineer</p>
+        <img src="images/elsie.png" alt="">
+        <h3> Elsie Doris </h3>
+        <p> Visual Designer </p>
       </li>
       
     </ul>
@@ -130,25 +131,63 @@
       <label>Message</label>
       <input type="text" required>
     </form>
-    <p>Alternatively, you can reach us at <a href="mailto:info@example.com">our email which we don't have</a> or call us at <a href="tel:+23234872268">+23234872268</a>.</p>
+    <button class="btn"> Send </button>
+
+    <!-- <p style="text-transform: none;">Alternatively, you can reach us at <a href="mailto:info@example.com">our email which we don't have</a> or call us at <a href="tel:+23234872268">+23234872268</a>.</p> -->
   </section>
+
+
+
+
+
+
+
+
+
 
 
 <!--   ---------------------------------------------------------------------------------------- -->
 
+
+
+<section class="footer">
+
+  <div class="box-container">
+
+    <div class="box">
+      <h3>quick links</h3>
+      <a href="#about"> <i class="fas fa-angle-right"></i> about</a>
+      <a href="#blog"> <i class="fas fa-angle-right"></i> services </a>
+      <a href="#team"> <i class="fas fa-angle-right"></i> team </a>
+    </div>
+
+    <div class="box">
+      <h3>extra links</h3>
+      <a href="#contact"> <i class="fas fa-angle-right"></i> ask questions </a>
+      <a href="#about"> <i class="fas fa-angle-right"></i> about us </a>
+      <a href="aos-membership.html"> <i class="fas fa-angle-right"></i> become a member </a>
+    </div>
+
+
+    <div class="box">
+      <h3>follow us</h3>
+      <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+      <a href="https://github.com/ace-of-space"> <i class="fab fa-github"></i> github </a>
+      <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+    </div>
+
+  </div>
+
+  <div class="credit"> <a href="https://github.com/ace-of-space"> <span> AOS </span> </a> | all rights reserved!
+  </div>
+
+</section>
+
   
-  <!-- Footer -->
-  <footer>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <p>&copy; 2023 Ace of Space. All rights reserved.</p>
-  </footer>
+
+
+
+
   
 <script src="script.js"></script>
 

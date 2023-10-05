@@ -18,7 +18,7 @@ This is a website project created for our team to centralize information and to 
 
 ## Usage
 
-To run this website locally, follow these steps:
+To run this website locally, follow these steps :
 
 1. Clone this repository to your local machine.
 2. Navigate to the project directory.
@@ -42,10 +42,9 @@ To run this website locally, follow these steps:
 ## Authors
 
 - Dominic OT - Project Lead - [dominicoladapotonade@gmail.com](mailto:dominicoladapotonade@gmail.com)
-- Dauda Kanu - Frontend Developer - [daudasullaimankanu@gmail.com](mailto:daudasullaimankanu@gmail.com)
+- Dauda Kanu - UX / Frontend Developer - [daudasullaimankanu@gmail.com](mailto:daudasullaimankanu@gmail.com)
 - SolCaster - Backend Developer - [solomoncaster523@gmail.com](mailto:solomoncaster523@gmail.com)
-- 
-
+- Aminata I. Fofanah - Frontend Developer - [aminatafofanah237@gmail.com](mailto:aminatafofanah237@gmail)
 
 ## Contact
 
