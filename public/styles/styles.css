@@ -72,11 +72,11 @@ section {
 
 .header .logo:hover {
   letter-spacing: 15px;
-  transition: .3s ease-in-out;
   margin-left: 3px;
 }
 
 .header .logo {
+  transition: .3s ease-out 0s;
   text-transform: capitalize;
   font-size: 1.9rem;
   color: #fff;
@@ -126,6 +126,21 @@ section {
   text-transform: uppercase;
   color: #fff;
   text-shadow: 0 1.5rem 3rem rgba(0,0,0,.3);
+  animation-duration: 3s;
+  animation-name: slidein;
+  /* animation-iteration-count: infinite; */
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .aos p {
@@ -224,6 +239,8 @@ section {
 
 
 
+
+
 #contact {
   background-color: #f9f5f2;
   padding: 80px 20px;
@@ -259,6 +276,22 @@ section {
   margin: 10px;
 }
 
+#contact input:focus {
+  background:#fff;
+  color:black;
+  outline:none;
+  border:3px solid #46556d;
+  box-shadow: -5px 5px 15px #152238;
+  border: 1px solid #152238;
+}
+
+label {
+  display: inline-block;
+  /* float:left; */
+  padding: 2px;
+  color: black;
+    font-size: 18px;
+}
 
 
 
@@ -328,12 +361,12 @@ section {
 
 .footer .credit span {
   color: rgb(247, 168, 0);
+  transition: .3s ease-out 0s;
 }
 
 .footer .credit span:hover {
   color: #fff;
   letter-spacing: 15px;
-  transition: .3s ease-in-out;
   margin-left: 3px;
 }
 
