@@ -1300,7 +1300,7 @@ input[type='checkbox'] {
 .form {
 	padding-top: 2.5rem;
 	padding-bottom: 5.5rem;
-	background: url('../images/contact-background.jpg') center bottom no-repeat;
+	background: url('../images/contact-background.png') center bottom no-repeat;
 	background-size: cover; 
 }
 
